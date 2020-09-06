@@ -1,18 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="assets/style.css" rel="stylesheet">
+
+    <title>My Weather Dashboard</title>
 </head>
+
 <body>
+    <!---Nav Bar--->
     <nav class="navbar navbar-dark bg-dark">
         <a href="#"></a>
         <h1>Weather Dashboard</h1>
-        </nav>
-        
-        <div class="container-fluid">
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 search">
+                <div class="input-group">
+                    <input type="text" class="form-control" id="search-input" type="search" aria label="Search">
+                    <div class="input-group-append">
+                        <button class="btn btn primary" id="searchBtn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!---Button creation for previous results-->
+                <div id="PreviousResult">
+                </div>
             </div>
-    
+
+            <!---Weather Current Location--->
+            <div class="col-md-9">
+                <div class="container">
+                </div>
+            </div>
+        </div>
+
+     </div>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
+            integrity="sha512-rmZcZsyhe0/MAjquhTgiUcb4d9knaFc7b5xAfju483gbEXTkeJRUMIPk6s3ySZMYUHEcjKbjLjyddGWMrNEvZg=="
+            crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/2437f63ebf.js" crossorigin="anonymous"></script>
+        <script src="assets/script.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
 </html>
