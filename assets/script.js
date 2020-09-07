@@ -23,7 +23,7 @@ function initialize() {
     }
 
 }
-
+//api geo
 function success(position) {
     var lat = position.coords.latitude;
     var lon = position.coords.longitude;
@@ -41,7 +41,7 @@ function success(position) {
 
 function error(){
     //can't geolocate and no previous searches, so just give them one
-    currentLoc = "Raleigh"
+    currentLoc = "Salt Lake City"
     getCurrent(currentLoc);
 }
 
