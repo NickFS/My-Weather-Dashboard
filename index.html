@@ -12,45 +12,46 @@
 </head>
 
 <body>
-    <!---Nav Bar--->
-    <nav class="navbar navbar-dark bg-dark">
-        <a href="#"></a>
-        <h1>Weather Dashboard</h1>
-    </nav>
+    <!---Header--->
+    <header>
+        <div class="headbar">
+            <div>
+                <h1>Weather Dashboard</h1>
+            </div>
+        </div>
+    </header>
+
 
     <!---Search input--->
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-3 search">
-                <h2>Search for a City:</h2>
-                <div class="input-group">
-                    <input type="text" class="form-control" id="search-input" type="search" aria-label="Search">
+        <div class="row mt-3">
+            <div class="col-md-3 searcharea">
+                <h2 class="text-secondary">Search for a city:</h2>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" id="searchinput" type="search" aria-label="Search">
                     <div class="input-group-append">
-                        <button class="btn btn-primary" id="searchBtn" type="submit">
+                        <button class="btn btn-primary" id="searchbtn" type="submit">
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
                 </div>
-
-                <!---Button creation for previous results-->
-                <div id="previousResult">
+                <div class="mt-5" id="prevSearches">
+                    <!--Buttons for previous searches here-->
                 </div>
             </div>
 
-            <!---Weather Current Location--->
             <div class="col-md-9">
-                <div class="container" id="newforcast">
-                    <span id="city-name">
-                        </span>
+                <div class="container" id="earthforecast">
+                    <!--Weather for current location-->
                 </div>
             </div>
         </div>
 
-     </div>
+    </div>
 
 
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
             integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
             crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"
@@ -58,7 +59,10 @@
             crossorigin="anonymous"></script>
         <script src="https://kit.fontawesome.com/2437f63ebf.js" crossorigin="anonymous"></script>
         <script src="assets/script.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        
 </body>
 
 </html>

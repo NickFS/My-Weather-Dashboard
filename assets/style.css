@@ -1,13 +1,50 @@
-.search {
+.headbar { 
+     background-color: #3c3c3c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+.searcharea {
     background-color: #e6f2ff;
     padding: 20px;
 }
 
-.input-group {
-    width: 75%
+.uvindex {
+    padding: 5px;
+}
+
+.one-fifth {
+    box-sizing: border-box;
+    width: 20%;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.one-fifth:first-child {
+    margin-left: 0px;
+}
+
+.one-fifth:last-child{
+    margin-right: 0px;
+}
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
 }
 
 #searchbtn{
     padding: 6px 5px 0px 5px;
 
+}
+
+.input-group {
+    width: 75%;
+}
+
+.card-img-top {
+    width: 50%
 }
