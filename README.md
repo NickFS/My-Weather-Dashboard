@@ -12,4 +12,7 @@ This project is created with:
 * Moment.js
 * Open Weather API
 
-## Screenshot
+[My Weather Dashboard](https://nickfs.github.io/My-Weather-Dashboard/)
+![my screenshot](https://github.com/NickFS/My-Weather-Dashboard/blob/master/weather_dashboard.PNG)
+
+
