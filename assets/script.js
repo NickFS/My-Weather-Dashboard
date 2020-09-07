@@ -13,7 +13,6 @@ function initialize() {
         getCurrent(currentLoc);
     }
     else {
-        //try to geolocate, otherwise set city to raleigh
         if (!navigator.geolocation) {
             //can't geolocate and no previous searches, so just give them one
             getCurrent("Salt Lake City");
